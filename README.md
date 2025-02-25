@@ -1,1 +1,13 @@
 # qa_python
+
+Добавлены тесты для проверки методов класса BooksCollector
+
+test_add_new_book_add_books проверяет корректное добавление книг
+test_set_book_genre_add_genre_to_the_book проверяет корректное добавления жанра
+test_get_book_genre_outputs_book_genre проверяет добавление жанра книге
+test_get_books_with_specific_genre_return_a_list_of_books проверяет правильный вывод книг по определенному жанру
+test_get_books_genre_return_books_genre проверяет правильный вывод списка книга-жанр
+test_get_books_for_children_return_books_for_children проверяет возвращение книг подходящих детям
+test_add_book_in_favorites_books_added_in_favorites_list проверяет правильное добавление книги в список Избранных
+test_delete_book_from_favorites_book_deleted_from_favorites проверяет удаление книги из списка Избранных
+test_favorites_list_retrieved_return_favorites_list проверяет вывод книг из списка Избранных
